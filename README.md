@@ -111,7 +111,7 @@ Sparkplug payload, this is not the tool.
 ## Tests
 
 ```sh
-tests/test-mqtt-tap.sh              # 130 assertions, ~49s, all on 127.0.0.1
+tests/test-mqtt-tap.sh              # 130 assertions, 48s, all on 127.0.0.1
 python3 mqtt-tap.py --self-check    # 6 checks, instant
 ```
 
