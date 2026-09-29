@@ -101,6 +101,13 @@ the property block skipped — but that is the only 5.0 handling here. No proper
 or reported, and a broker that requires 5.0 will refuse the connection with "unsupported
 protocol version", which the tool prints in words. QoS 2 is not implemented.
 
+Three more things it does not do, each stated in `--help` as well. There is no session
+resumption: every connection is a clean session, so a reconnect starts from nothing. No MQTT
+5 properties are sent or reported. And Sparkplug B is handled by topic, not by payload —
+`spBv1.0/...` topics are recognised by name and counted, and their protobuf payloads are
+reported as binary with a byte count, never decoded. If you need the metric names inside a
+Sparkplug payload, this is not the tool.
+
 ## Tests
 
 ```sh
