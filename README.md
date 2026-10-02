@@ -133,9 +133,10 @@ attribution needed beyond the licence text.
 ## More
 
 The [tool's page](https://plantroomlabs.com/tools/mqtt-tap/) has real terminal transcripts
-from the fixture and the full blind-spot list. Its two siblings are
-[bacnet-sweep](https://github.com/UsamaIqbal0304/bacnet-sweep) and
-[decoder-check](https://github.com/UsamaIqbal0304/decoder-check).
+from the fixture and the full blind-spot list. Its three siblings are
+[bacnet-sweep](https://github.com/UsamaIqbal0304/bacnet-sweep),
+[decoder-check](https://github.com/UsamaIqbal0304/decoder-check) and
+[obix-mcp](https://github.com/UsamaIqbal0304/obix-mcp).
 
 Written by [Plantroom Labs](https://plantroomlabs.com) — Niagara Framework engineering:
 modules and drivers, bajaux widgets, PX graphics, station and controller work. Issues and
