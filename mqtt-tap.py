@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Usama Iqbal (Plantroom Labs)
 """Point this at an MQTT broker nobody documented and it says what is on it.
 
     mqtt-tap.py tap <host>                     topic tree: rates, type guesses, last values
